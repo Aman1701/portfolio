@@ -1,0 +1,2 @@
+$(document).ready((function(){$(window).scroll((function(){this.scrollY>20?$(".navbar").addClass("sticky"):$(".navbar").removeClass("sticky")})),$(".menu-btn").click((function(){$(".navbar .menu").toggleClass("active"),$("menu-btn i").toggleClass("active")})),$(".carousel").owlCarousel({margin:20,loop:!0,autoplayTimeout:2e3,autoPlayHoverPause:!0,responsive:{0:{items:1,nav:!1},1e3:{items:2,nav:!1}}})}));
+//# sourceMappingURL=index.21214b4f.js.map
